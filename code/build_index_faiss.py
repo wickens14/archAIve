@@ -7,6 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 import joblib
 import gc
+from scipy import sparse
 
 # Paths
 ROOT = Path(__file__).resolve().parents[1]
